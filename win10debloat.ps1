@@ -8,7 +8,7 @@
 #
 #	Addition: One command to rule them all, One command to find it, and One command to Run it! 
 #
-#     > powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://git.io/JJ8R4')"
+#     > powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/WilliamSampson44445/win10script/master/win10debloat.ps1')"
 #
 #	Chris Titus Tech Additions:
 #
