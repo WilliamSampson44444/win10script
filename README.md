@@ -1,19 +1,14 @@
 # win10script
-This is the Ultimate Windows 10 Script from a creation from multiple debloat scripts and gists from github. I also added Chocolatey and other tools to the script that I install on every machine.
+This is the Ultimate Windows 10 Script from a creation from multiple debloat scripts and gists from github. Modified first by Chris Titus, then by William Sampson for Digital Storm to use.
 
-## My Additions
+## DS Additions
 
-- Dark Mode
-- One Command to launch and run
-- Chocolatey Install
-- O&O Shutup10 CFG and Run
-- Added Install Programs
-- Added Debloat Microsoft Store Apps
+- ostweak.ps1 contains the command to run win10debloat from a file, rather than opening a command prompt first.
+- Simply create a shortcut, set it to run as administrator, and add "powershell -f" to the start of the path the shortcut uses.
 
 ## Modifications
-I encourage people to fork this project and comment out things they don't like! Here is a list of normal things people change:
-- Uninstalling OneDrive (This is on in my script)
-- Installing Adobe, Chocolatey, Notepad++, MPC-HC, and 7-Zip
+- Disabling most of Chris Titus's added programs.
+- Turning off tweaks which may be too dangerous to ship to customers.
 
 Comment any thing you don't want out... Example:
 
