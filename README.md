@@ -3,7 +3,7 @@ This is the Ultimate Windows 10 Script from a creation from multiple debloat scr
 
 ## DS Additions
 
-- ostweak.ps1 contains the command to run win10debloat from a file, rather than opening a command prompt first.
+- ostweak.ps1 contains the command to run win10debloat from a file, rather than opening a powershell prompt first.
 - Simply create a shortcut, set it to run as administrator, and add "powershell -f" to the start of the path the shortcut uses.
 
 ## Modifications
