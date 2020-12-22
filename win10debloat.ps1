@@ -2677,3 +2677,6 @@ If ($args) {
 
 # Call the desired tweak functions
 $tweaks | ForEach { Invoke-Expression $_ }
+
+Write-Host "Press any key to continue..."
+$Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
