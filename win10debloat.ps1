@@ -29,7 +29,7 @@ $tweaks = @(
 	"CreateRestorePoint",
 	
 	### Chris Titus Tech Additions
-	"TitusRegistryTweaks",
+	#"TitusRegistryTweaks",
 	#"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
 	#"Install7Zip",
 	#"InstallNotepadplusplus",
