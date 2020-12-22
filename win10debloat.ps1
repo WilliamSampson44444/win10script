@@ -22,6 +22,10 @@
 #	- Changed Default Apps to Notepad++, Brave, Irfanview, and more using XML Import feature
 #
 ##########
+
+Write-Host "Press any key to continue..."
+$Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
+
 # Default preset
 $tweaks = @(
 	### Require administrator privileges ###
